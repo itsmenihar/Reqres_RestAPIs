@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-17T01:09:40 IST" name="Default suite" finished-at="2023-12-17T01:09:42 IST" duration-ms="2591">
+  <suite started-at="2023-12-19T20:19:34 IST" name="Default suite" finished-at="2023-12-19T20:19:35 IST" duration-ms="1326">
     <groups>
     </groups>
-    <test started-at="2023-12-17T01:09:40 IST" name="Default test" finished-at="2023-12-17T01:09:42 IST" duration-ms="2591">
-      <class name="differentWaysToPostRequestBody.Students">
-        <test-method signature="testPostUsingHashMap()[pri:1, instance:differentWaysToPostRequestBody.Students@4fb61f4a]" started-at="2023-12-17T01:09:40 IST" name="testPostUsingHashMap" finished-at="2023-12-17T01:09:42 IST" duration-ms="2476" status="PASS">
+    <test started-at="2023-12-19T20:19:34 IST" name="Default test" finished-at="2023-12-19T20:19:35 IST" duration-ms="1326">
+      <class name="validateJSON.ParsingJSONResponseData">
+        <test-method signature="testJsonResponseBodyData()[pri:2, instance:validateJSON.ParsingJSONResponseData@79924b]" started-at="2023-12-19T20:19:34 IST" name="testJsonResponseBodyData" finished-at="2023-12-19T20:19:35 IST" duration-ms="1283" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostUsingHashMap -->
-        <test-method signature="testDelete()[pri:2, instance:differentWaysToPostRequestBody.Students@4fb61f4a]" started-at="2023-12-17T01:09:42 IST" name="testDelete" finished-at="2023-12-17T01:09:42 IST" depends-on-methods="differentWaysToPostRequestBody.Students.testPostUsingHashMap" duration-ms="60" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDelete -->
-      </class> <!-- differentWaysToPostRequestBody.Students -->
+        </test-method> <!-- testJsonResponseBodyData -->
+      </class> <!-- validateJSON.ParsingJSONResponseData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
